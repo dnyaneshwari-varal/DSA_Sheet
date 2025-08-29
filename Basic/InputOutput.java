@@ -16,9 +16,6 @@ Input(user gives value): 7
 Output: 7
  */
 
-
-package Basic;
-
 import java.util.Scanner;
 
 public class InputOutput {
