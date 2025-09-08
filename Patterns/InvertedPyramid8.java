@@ -6,15 +6,16 @@ public class InvertedPyramid8 {
         System.out.print("Enter rows: ");
         int row=sc.nextInt();
         int temp=row;
+        int temp2=row;
 
         for(int i=1;i<=row;i++){
             for(int j=1;j<i;j++){
                 System.out.print(" ");
             }
-            for(int k=0;k<2*temp-1;k++){
+            for(int k=0;k<2*temp2-1;k++){
                 System.out.print("*");
             
-            }temp--;
+            }temp2--;
             System.out.println();
         }
 
