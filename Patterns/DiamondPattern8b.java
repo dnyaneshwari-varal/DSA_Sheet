@@ -1,6 +1,8 @@
 package Patterns;
 import java.util.*;
-public class DiamondPattern8 {
+public class DiamondPattern8b {
+
+
     
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
@@ -15,9 +17,9 @@ public class DiamondPattern8 {
             for(int k=1;k<=2*i-1;k++){
                 System.out.print("*");
             }System.out.println();
-        }int temp=n;
+        }int temp=n-1;
         for(int i=1;i<=n;i++){
-            for(int j=1;j<i;j++){
+            for(int j=1;j<=i;j++){
                 System.out.print(" ");
             
             }
@@ -28,18 +30,16 @@ public class DiamondPattern8 {
         }
     }
 }
+
 /*
  output
  Enter rows: 
-5
-    *
-   ***
-  *****
- *******
-*********
-*********
- *******
-  *****
-   ***
-    *
- */
+4
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+*/
