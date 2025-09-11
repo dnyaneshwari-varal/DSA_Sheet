@@ -1,7 +1,7 @@
 package Patterns;
 import java.util.*;
 
-public class Half_diamond_star_pattern {
+public class Half_diamond_star_pattern10 {
     static void firstHalf(int n){
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
