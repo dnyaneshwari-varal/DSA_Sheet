@@ -1,6 +1,6 @@
 package Patterns;
 
-public class Alpha_ramp_pattern16 {
+public class pattern16 {
     static void alpha_ramp(int N){
         
         for(int i=0;i<N;i++){

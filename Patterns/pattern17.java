@@ -1,5 +1,5 @@
 package Patterns;
-public class alpha_hill_pattern17{
+public class pattern17{
     static void alpha_hill(int N){
         for(int i=1;i<=N;i++){
             for(int j=1;j<=N-i;j++){
@@ -15,7 +15,6 @@ public class alpha_hill_pattern17{
                 ch2--;
             }
             System.out.println();
-            
         }
 
     }
