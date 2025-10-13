@@ -5,14 +5,33 @@ public class Palindrome_3 {
         int temp=num;
         int PalN=0;
         while(temp > 0){
-            int rem=
+            int rem=temp%10;
+            PalN=PalN*10+rem;
+            temp=temp/10;
         }
+        //System.out.println(PalN);
+        return PalN;
+
     }
     public static void main(String[] str){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter number to check Palindrome or not: ");
         int num=sc.nextInt();
-        int PalN=PalindromeN(num);
+        int result=PalindromeN(num);
+        if(num==result){
+            System.out.println(num+" Number is Palindrome!");
+        }else{
+            System.out.println(num+" Number is not Palindrome!");
+        }
 
     }
 }
+/*
+Enter number to check Palindrome or not: 
+2332
+2332 Number is Palindrome!
+
+Enter number to check Palindrome or not: 
+1234
+1234 Number is not Palindrome!
+ */
