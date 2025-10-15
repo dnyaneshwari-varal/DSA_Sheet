@@ -1,4 +1,4 @@
-package basic_maths;
+//package basic_maths;
 import java.util.*;
 
 import javax.sound.sampled.SourceDataLine;

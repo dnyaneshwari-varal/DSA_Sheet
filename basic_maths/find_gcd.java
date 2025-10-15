@@ -1,4 +1,4 @@
-package basic_maths;
+//package basic_maths;
 import java.util.*;
 public class find_gcd {
     public static int gcd(int n1,int n2){

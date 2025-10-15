@@ -1,4 +1,4 @@
-package basic_maths;
+//package basic_maths;
 
 public class Divisor {
     public static int[] divisor(int n){
@@ -9,7 +9,7 @@ public class Divisor {
                 div[count++]=i;
             }
         }
-        
+
         return div;
     }
     public static void main(String str[]){
@@ -22,7 +22,7 @@ public class Divisor {
             System.out.println(div[i]);
         }
     }
-    
+
 }
 /*
 1
@@ -30,5 +30,5 @@ public class Divisor {
 3
 4
 6
-12 
+12
 */

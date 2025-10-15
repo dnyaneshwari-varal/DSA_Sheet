@@ -1,4 +1,4 @@
-package basic_maths;
+//package basic_maths;
 import java.util.*;
 public class Palindrome_3 {
     public static int PalindromeN(int num){

@@ -1,4 +1,4 @@
-package basic_maths;
+//package basic_maths;
 import java.util.*;
 public class Reverse_num2 {
     public static int RevNum(int num){

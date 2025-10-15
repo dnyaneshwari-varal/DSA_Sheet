@@ -1,6 +1,6 @@
 //An Amrstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits.
 //Problem Statement: Given an integer N, return true it is an Armstrong number otherwise return false.
-package basic_maths;
+//package basic_maths;
 import java.util.*;
 public class amrstrong {
     public static boolean isArmstrong(int num){
