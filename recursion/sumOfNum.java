@@ -21,3 +21,10 @@ public class sumOfNum {
         sum(1,n,0);
     }
 }
+/*
+We can use the formula for the sum of N numbers, i.e N(N+1)/2.
+For eg: N=5
+5(5+1)/2 = 5(6)/2 = 15.
+
+ */
+/*The sum of the first 5 numbers is: 15 */
