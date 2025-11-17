@@ -1,21 +1,37 @@
 package recursion;
+//iterative solution
+/*public class factorial {
+    public static int fact(int x){
+        int res=1;
+        for(int i=x;i>0;i--){
+            res=res*i;
+        }
+        return res;
 
+
+    }
+    public static void main(String[] arg){
+        int x=5;
+        int result=fact(x);
+        System.out.println("Factorial of "+x +" is: "+result);
+    }
+
+}
+    */
 
 public class factorial{
-    public static int fact(int num,int x){
-         if(num==1){
-            return 1;
-            
+    public static int fact(int n,int result){
+        if(n==0){
+            return result;
         }
-        x=num*x;
-        return fact(num-1, x);
-       
+        result=result*n;
+        return fact(n-1,result);
 
     }
     public static void main(String[] args){
-        int num=5;
-        int x=1;
-        int result=fact(num,x);
+        int x=5;
+        int res=1;
+        int result=fact(x,res);
         System.out.println("Factorial of " + x + " is: " + result);
 
     }
